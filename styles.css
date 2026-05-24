@@ -24,7 +24,7 @@ body {
 
 .hero {
   padding: 60px 24px;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(251, 191, 36, 0.2)), url('https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1400&h=500&fit=crop') center/cover no-repeat;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.6), rgba(251, 191, 36, 0.2)), url('https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1400') center/cover no-repeat;
   border: 1px solid #e5e7eb;
   border-radius: 24px;
   box-shadow: 0 25px 60px rgba(15, 23, 42, 0.06);
