@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alice Car Service - Istruzioni di montaggio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Alice Car Service</p>
+        <h1>Trova istruzioni di montaggio per qualsiasi vettura</h1>
+        <p>Cerca rapidamente procedure, componenti e passaggi di montaggio per auto comuni.</p>
+      </div>
+
+      <form id="search-form" class="search-form">
+        <input
+          id="search-input"
+          type="search"
+          placeholder="Cerca marca, modello o parte..."
+          aria-label="Cerca istruzioni di montaggio"
+        />
+        <button type="submit">Cerca</button>
+      </form>
+    </header>
+
+    <main>
+      <section class="results-section">
+        <div id="results" class="results-list">
+          <p class="empty-state">Inserisci un termine di ricerca per visualizzare le istruzioni.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
